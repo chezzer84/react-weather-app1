@@ -13,7 +13,7 @@ export default function TempApp(props) {
           <div className="float-left">
             <div className="Temperature">{props.temp}</div>
             <span className="celsius">
-              <a href="">°C</a> | <a href="">°F</a>
+              <a href="/#">°C</a> | <a href="/#">°F</a>
             </span>
           </div>
         </div>
