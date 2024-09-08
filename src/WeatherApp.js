@@ -34,6 +34,25 @@ export default function WeatherApp() {
         <CityInfo city="Perth" />
         <List1 date="Tuesday" time="10:00" />
         <TempApp humidity="80" wind="10" temp="19" />
+        <h3 class="footer-link-text">
+          {"This project was coded by Cheryl Watts 👩‍💻 and is "}
+
+          <a
+            href="https://github.com/chezzer84"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            open sourced on Github
+          </a>
+          {" and "}
+          <a
+            href="https://celadon-youtiao-b84ec4.netlify.app/"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </h3>
       </div>
     </div>
   );
